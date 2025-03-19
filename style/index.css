@@ -1,0 +1,50 @@
+/*For all*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    color: aliceblue;
+    
+}
+
+
+/*Body*/
+
+/*Principal Section*/
+
+#canvas{
+    position: static;
+    z-index: -1;
+    
+}
+
+#block-nome{
+    z-index: 1000;
+    position: absolute;
+    display: flexbox;
+    color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+#nome{
+    color: aqua;
+}
+
+/*another sections*/
+
+#habilidades{
+    margin-top: -1vh;
+}
+
+#habilidades{
+    display: block;
+    background-color: black;
+    height: 300px;
+    width: 100vw;
+    
+}
