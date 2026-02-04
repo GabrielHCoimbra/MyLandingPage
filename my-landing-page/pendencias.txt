@@ -1,0 +1,2 @@
+- quando o navbar aparecer, cancelar a animação
+-tentar diminuir a velocidade da animação
