@@ -1,0 +1,27 @@
+/* Global styles | Estilos globais */
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+
+body {
+font-family: 'Courier New', monospace; /* Tech / Matrix feeling */
+background-color: #000;
+color: #e0e0e0;
+overflow-x: hidden;
+}
+
+
+section {
+min-height: 100vh;
+padding: 80px 10%;
+}
