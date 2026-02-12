@@ -1,6 +1,98 @@
 section {
-    background-color: #000000;
+    font-size: 1.2rem;
+    color: #fff;
+    height: 100vh;
 }
 #initial{
     background: none;
+    align-items: center;
 }
+#initial{
+    font-size: 3rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#initial h1{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+#initial h2{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#about {
+    background-color: none; /* fallback color */
+    background-image: linear-gradient(180deg, #0f202700 0%, #0f0 5%, #111111 30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    
+    
+}
+#skills {
+    background-color: #111111; /* fallback color */
+    background-image: linear-gradient(180deg, #0f202700 0%, #0f0 15%, #111 40%,#111111 90%, #0f0 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+   
+}
+#contact {
+    background-color: transparent; /* fallback color */
+    background-image: linear-gradient(180deg, #0f0 20%, #11111100 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+}
+#mid {
+    background-color: #111111; /* fallback color */
+    background-image: linear-gradient(180deg, #0f202700 0%, #0f0 5%, #111111 30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 40vh;
+}
+
+#contact h2{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+#about-me{
+    text-align: justify;
+    margin: 5vh auto;
+    
+}
+
+#current-status-ul {
+    list-style: outside;
+    padding: 0;
+    margin: 5vh auto;
+    
+}
+
+/* White border for skills table */
+table {
+    margin: 3vh auto;
+    border: 2px solid #fff;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
