@@ -28,7 +28,7 @@ section {
 }
 
 #about {
-    background-color: none; /* fallback color */
+    background-color: none;
     background-image: linear-gradient(180deg, #0f202700 0%, #0f0 5%, #111111 30%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,3 +96,10 @@ table td {
     padding: 10px;
 }
 
+#contact-links { 
+    display: flex; 
+    list-style: none;
+    justify-content: center; 
+    gap: 10vw; 
+    margin-top: 8vh; 
+}

@@ -101,22 +101,34 @@ return (
         
         <section id="contact">
             <h2>Contacts</h2>
-            <p id="contact-links">
-                - Email pessoal:
-                <a href="mailto:gabriel.coimbra.viana@gmail.com">
+            <ul id="contact-links">
+                <li>
+                    <a href="mailto:gabriel.coimbra.viana@gmail.com" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" width="100" height="100"/>
+                    </a>
+                </li>
                 
-                </a>
 
-                - Perfil Github:
-                <a href="https://github.com/GabrielHCoimbra">
-                    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="30" height="30"/>
-                </a>
+                <li>
+                    <a href="https://github.com/GabrielHCoimbra" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="100" height="100"/>
+                    </a>
+                </li>
+                
 
-                - Perfil LinkedIn:
-                <a href="https://www.linkedin.com/in/gabriel-henrique-coimbra-viana-413036241/">
-                    <img src="" alt="" />
-                </a>
-            </p>
+                <li>
+                    <a href="https://www.linkedin.com/in/gabriel-henrique-coimbra-viana-413036241/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="100" height="100"/>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.instagram.com/gabrielhcv_/" target="_blank">
+                        <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="100" height="100"/> 
+                    </a>
+                </li>
+
+            </ul>
         </section>
     </>
 )
