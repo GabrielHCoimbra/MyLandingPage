@@ -1,7 +1,7 @@
 section {
     font-size: 1.2rem;
     color: #fff;
-    height: 100vh;
+    min-height: 100vh;
 }
 #initial{
     background: none;
@@ -38,14 +38,13 @@ section {
     
 }
 
-#skills {
+.mid {
     background-color: #111;
     background-image: linear-gradient(180deg, #0f202700 0%, #0f0 5%, #111111 30%);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    min-height: 100vh;
-    
+    min-height: 100vh;  
     
 }
 
@@ -66,14 +65,6 @@ section {
     color: #fff;
     min-height: 100vh;
 }
-#mid {
-    background-color: #111111; /* fallback color */
-    background-image: linear-gradient(180deg, #0f202700 0%, #0f0 5%, #111111 30%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    height: 40vh;
-}
 
 #contact h2{
     font-size: 3rem;
@@ -91,6 +82,12 @@ section {
 
 #conteiner-about-me {
     margin: 10vh 2vw;
+}
+
+#profile-picture-and-about-me {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
 }
 
 #about-me{
@@ -142,72 +139,16 @@ td img {
 /* Projects----------------------------------------------------------*/
 
 #conteiner-projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     gap: 2vw;
     margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 80vh;
 }
 
 
-
-
-.projects {
-    width: 40vw;
-    min-height: 10vh;
-    --green: #1BFD9C;
-    font-size: 15px;
-    padding: 0.7em 2.7em;
-    letter-spacing: 0.06em;
-    position: relative;
-    font-family: inherit;
-    border-radius: 0.6em;
-    overflow: hidden;
-    transition: all 0.3s;
-    line-height: 1.4em;
-    border: 2px solid var(--green);
-    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
-    color: var(--green);
-    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
-}
-
- 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 15px;
-  gap: 15px;
-  background-color: #181717;
-  outline: 3px #181717 solid;
-  outline-offset: -3px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  transition: 400ms;
-}
-
-.button .text {
-  color: white;
-  font-weight: 700;
-  font-size: 1em;
-  transition: 400ms;
-}
-
-.button svg path {
-  transition: 400ms;
-}
-
-.button:hover {
-  background-color: transparent;
-}
-
-.button:hover .text {
-  color: #181717;
-}
-
-.button:hover svg path {
-  fill: #181717;
-}
 
 /*----------------------------------------------------------------------------------*/

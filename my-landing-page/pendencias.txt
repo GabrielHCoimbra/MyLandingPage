@@ -1,2 +1,9 @@
 - quando o navbar aparecer, cancelar a animação
 -tentar diminuir a velocidade da animação
+
+terminar de add a experiencia profissional.check
+editar a experiencia academica
+
+tratar da responsividade
+
+fazer deploy
