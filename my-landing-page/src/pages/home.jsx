@@ -4,7 +4,7 @@
 
 
 import Navbar from '../components/Navbar/Navbar'
-import Section from '../components/Section/Section'
+import Section from '../components/Section/section'
 
 
 export default function Home() {
