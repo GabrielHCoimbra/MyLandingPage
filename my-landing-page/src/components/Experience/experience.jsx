@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./experience.css";
 import experienceData from "../../data/experience.json";
 
 export default function Experience() {
   const [data, setData] = useState({ education: [], experience: [] });
+  const { t } = useTranslation();
 
   useEffect(() => {
     // Simulates fetching from JSON (in case you want to fetch from API later)
@@ -15,7 +17,7 @@ export default function Experience() {
     <div className="experience-container">
       {/* Education Section */}
       <div className="timeline-section">
-        <h3 className="timeline-title">Education</h3>
+        <h3 className="timeline-title">{t('experience.education')}</h3>
         <div className="timeline">
           {data.education.map((edu) => (
             <div key={edu.id} className="timeline-item">
@@ -42,7 +44,7 @@ export default function Experience() {
 
       {/* Experience Section */}
       <div className="timeline-section">
-        <h3 className="timeline-title">Professional</h3>
+        <h3 className="timeline-title">{t('experience.professional')}</h3>
         <div className="timeline">
           {data.experience.map((exp) => (
             <div key={exp.id} className="timeline-item">

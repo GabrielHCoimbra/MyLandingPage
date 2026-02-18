@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contacts"
+  },
+  "hero": {
+    "title": "Gabriel Viana",
+    "subtitle": "Software Engineer"
+  },
+  "about": {
+    "title": "About me",
+    "description": "I'm a lifelong learner, fascinated by learning and personal growth. Beyond technology, I'm interested in all subjects surrounding society, with particular emphasis on economics, sociology, and philosophy. I completed technical web development training at SENAI in 2022, but after finishing the course, I stepped away from the IT field due to my interests in economics. However, in 2025, I looked at the IT market with fresh eyes and a new perspective. Now more experienced and knowledgeable about the diverse opportunities in the sector, I returned to fullstack development learning and began my training with a focus on specializing in Business Intelligence & Machine Learning development.",
+    "currentStatus": "Current Status",
+    "status1": "💻 Pursuing a Technical Specialist degree in Information Systems Technologies and Programming;",
+    "status2": "📚 Currently learning React, Machine Learning with Azure & Data;",
+    "status3": "💪 Working in Portugal."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "experience": {
+    "title": "Experience",
+    "education": "Education",
+    "professional": "Professional"
+  },
+  "projects": {
+    "title": "Projects",
+    "defaultDescription": "Check more about this project on GitHub. Just click below!",
+    "goToProject": "Go to Project"
+  },
+  "contact": {
+    "title": "Contacts"
+  }
+}

@@ -1,15 +1,14 @@
 // Entry point of the React application
 // Ponto de entrada da aplicação React
 
-
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './styles/global.css'
-
+import './i18n'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<React.StrictMode>
-<App />
-</React.StrictMode>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 )

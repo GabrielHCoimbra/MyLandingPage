@@ -177,10 +177,11 @@ td img {
 }
 
 @media screen and (max-width: 900px) {
-    #skills table {
+
+    table {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: table;
+      
         border-collapse: collapse;
     }
 
@@ -192,6 +193,7 @@ td img {
         padding: 0.6rem;
         border: 1px solid #fff;
         font-size: 0.95rem;
+        height: auto;
     }
 
     
@@ -215,29 +217,6 @@ td img {
         margin-top: 4vh;
     }
     
-    /* Ajusta a tabela da seção Skills para duas colunas em telas pequenas */
-    #skills table {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        border-collapse: collapse;
-    }
-
-    #skills td,
-    #skills th {
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0.6rem;
-        border: 1px solid #fff;
-        font-size: 0.95rem;
-    }
-
     
-
-    /* Remove alturas fixas que podem atrapalhar o layout responsivo */
-    #skills td {
-        height: auto;
-    }
 }
 /*--------------------------------------------------------------------------------------------*/

@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contacts"
+  },
+  "hero": {
+    "title": "Gabriel Viana",
+    "subtitle": "Ingénieur Logiciel"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Je suis un apprenant continu, fasciné par l'apprentissage et la croissance personnelle. Au-delà de la technologie, je m'intéresse à tous les sujets concernant la société, avec un accent particulier sur l'économie, la sociologie et la philosophie. J'ai terminé une formation technique en développement web au SENAI en 2022, mais après avoir terminé le cours, je me suis éloigné du domaine informatique en raison de mes intérêts pour l'économie. Cependant, en 2025, j'ai regardé le marché informatique avec des yeux nouveaux et une perspective nouvelle. Ayant maintenant plus d'expérience et de connaissances sur les diverses opportunités du secteur, je suis retourné à l'apprentissage du développement fullstack et j'ai commencé ma formation en me concentrant sur la spécialisation en développement de Business Intelligence & Machine Learning.",
+    "currentStatus": "Statut Actuel",
+    "status1": "💻 Poursuivre un diplôme de Spécialiste Technique en Technologies des Systèmes d'Information et Programmation;",
+    "status2": "📚 Apprentissage actuel de React, Machine Learning avec Azure & Data;",
+    "status3": "💪 Travailler au Portugal."
+  },
+  "skills": {
+    "title": "Compétences"
+  },
+  "experience": {
+    "title": "Expérience",
+    "education": "Éducation",
+    "professional": "Professionnel"
+  },
+  "projects": {
+    "title": "Projets",
+    "defaultDescription": "Consultez plus de détails sur ce projet sur GitHub. Cliquez simplement ci-dessous!",
+    "goToProject": "Aller au Projet"
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}
