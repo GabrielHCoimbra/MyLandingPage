@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/my-landing-page/',
+  base: '/my-landing-page/dist/',
 })
