@@ -2,16 +2,6 @@
   "education": [
     {
       "id": 1,
-      "institution": "IEFP",
-      "course": "Técnico Especialista em Tecnologias e Programação de Sistemas de Informação",
-      "level": "Specialist Degree",
-      "startDate": "Dec 2025",
-      "endDate": "Nov 2026",
-      "description": "Advanced specialist training in Information Systems Technologies and Programming. Comprehensive curriculum covering web development (server-side and client-side), database design, relational and NoSQL databases, mobile applications for Android, network communication configuration, information system analysis and planning, algorithm development, security and occupational health standards in IT, and object-oriented programming.",
-      "skills": ["Python", "SQL", "React.js", "Analytical Skills", "UML", "WebDevelopment", "Database Design", "Android Development", "NoSQL", "Network Configuration"]
-    },
-    {
-      "id": 2,
       "institution": "Senai Centro de Treinamento da Tecnologia da Informação - CTTI MG",
       "course": "Técnico em Desenvolvimento WEB",
       "level": "Technical Course",
@@ -21,7 +11,7 @@
       "skills": ["PHP", "PhpMyAdmin", "MySQL", "SQL", "CSS", "Bootstrap", "JavaScript", "Node.js", "React.js", "HTML"]
     },
     {
-      "id": 3,
+      "id": 2,
       "institution": "Escola Secundária Martins Sarmento",
       "course": "12º Ano - Ensino Secundário Português",
       "level": "High School",
@@ -31,31 +21,20 @@
       "skills": ["Computer Applications", "Information Technology", "General Education"]
     },
     {
-      "id": 4,
-      "institution": "Centro Universitário Claretiano",
-      "course": "University Studies",
-      "level": "Higher Education",
-      "startDate": "Feb 2016",
-      "endDate": "Sep 2023",
-      "description": "Extended period of university studies and professional development, building foundational knowledge in technology and information systems.",
-      "skills": ["General IT Knowledge", "Professional Development"]
+      "id": 3,
+      "institution": "IEFP",
+      "course": "Técnico Especialista em Tecnologias e Programação de Sistemas de Informação",
+      "level": "Specialist Degree",
+      "startDate": "Dec 2025",
+      "endDate": "Nov 2026",
+      "description": "Advanced specialist training in Information Systems Technologies and Programming. Comprehensive curriculum covering web development (server-side and client-side), database design, relational and NoSQL databases, mobile applications for Android, network communication configuration, information system analysis and planning, algorithm development, security and occupational health standards in IT, and object-oriented programming.",
+      "skills": ["Python", "SQL", "React.js", "Analytical Skills", "UML", "WebDevelopment", "Database Design", "Android Development", "NoSQL", "Network Configuration"]
     }
+      
   ],
   "experience": [
     {
       "id": 1,
-      "company": "DIO",
-      "position": "Embaixador DIO Campus Expert",
-      "type": "Full-time",
-      "startDate": "Apr 2025",
-      "endDate": "Present",
-      "duration": "11 months",
-      "location": "Brazil - Remote",
-      "description": "Atuação em uma posição que envolve liderança comunitária e representação universitária dentro de um dos maiores ecossistemas de educação em tecnologia da América Latina. Como parte do programa, participo de iniciativas para promover educação tecnológica, engajamento comunitário e desenvolvimento profissional dos participantes.",
-      "skills": ["Self-Management", "Personal Development", "Community Leadership", "University Representation", "Education Technology"]
-    },
-    {
-      "id": 2,
       "company": "Construtora Terraço",
       "position": "Programador Visual Gráfico",
       "type": "Apprenticeship",
@@ -65,6 +44,20 @@
       "location": "Belo Horizonte, Minas Gerais, Brazil",
       "description": "Desenvolvimento de soluções de programação visual e gráfica para aplicações internas. Trabalho com criação de interfaces, otimização de código frontend e integração com sistemas existentes.",
       "skills": ["PHP", "JavaScript", "HTML", "CSS", "SQL", "React.js"]
+    
+      },
+    {
+      "id": 2,
+      "company": "DIO",
+      "position": "Embaixador DIO Campus Expert",
+      "type": "Full-time",
+      "startDate": "Apr 2025",
+      "endDate": "Present",
+      "duration": "11 months",
+      "location": "Brazil - Remote",
+      "description": "Atuação em uma posição que envolve liderança comunitária e representação universitária dentro de um dos maiores ecossistemas de educação em tecnologia da América Latina. Como parte do programa, participo de iniciativas para promover educação tecnológica, engajamento comunitário e desenvolvimento profissional dos participantes.",
+      "skills": ["Self-Management", "Personal Development", "Community Leadership", "University Representation", "Education Technology"]
+    
     }
   ]
 }

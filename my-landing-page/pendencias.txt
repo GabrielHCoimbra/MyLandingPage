@@ -1,8 +1,10 @@
-- quando o navbar aparecer, cancelar a animação
+- quando o navbar aparecer, cancelar a animação. checked
 -tentar diminuir a velocidade da animação
 
 terminar de add a experiencia profissional.check
 editar a experiencia academica
+
+' editar experience sobrepondo navbar.checked
 
 tratar da responsividade
 
