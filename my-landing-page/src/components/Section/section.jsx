@@ -3,7 +3,9 @@ import MatrixBackground from '../MatrixBackground/matrixbackground.jsx'
 import Project from '../Projects/project.jsx'
 import Experience from '../Experience/experience.jsx'
 import { useTranslation } from 'react-i18next'
+
 const profileSrc = import.meta.env.BASE_URL + 'images/profile.png'
+
 
 export default function Section() {
   const { t } = useTranslation()
