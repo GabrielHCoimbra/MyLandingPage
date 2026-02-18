@@ -36,7 +36,7 @@ return (
         </section>
         
         <section id="skills" className='mid'>
-            <h2>Skills</h2>
+            <h2 >Skills</h2>
             <p id="table">
                 <table>
                     <tr>
@@ -108,12 +108,12 @@ return (
         </section>
 
         <section id="experience" className='mid'>
-            <h2>Experience</h2>
+            <h2 className='title'>Experience</h2>
                 <Experience />
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
+            <h2 className='title'>Projects</h2>
             <div id='conteiner-projects'>
                 <Project link={"https://github.com/GabrielHCoimbra/LabAzureAI"} />
                 <Project link={"https://github.com/GabrielHCoimbra/Gym-System"} />

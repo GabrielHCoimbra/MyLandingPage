@@ -1,7 +1,7 @@
 section {
     font-size: 1.2rem;
     color: #fff;
-    min-height: 100vh;
+    min-height: auto;
 }
 #initial{
     background: none;
@@ -33,7 +33,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    min-height: 100vh;
+    
     
     
 }
@@ -44,7 +44,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    min-height: 100vh;  
+      
     
 }
 
@@ -54,7 +54,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    min-height: 100vh;
+    
    
 }
 #contact {
@@ -63,7 +63,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    min-height: 100vh;
+    
 }
 
 #contact h2{
@@ -75,8 +75,8 @@ section {
 #profile-picture {
     float: left;
     margin-right: 20px;
-    width: 15vw;
-    height: 30vh;
+    width: 20%;
+    height: 40%;
     border-radius: 50%;
 }
 
@@ -127,6 +127,11 @@ td img {
     object-fit: contain;
 }
 
+.title {
+    margin-top: 7vh;
+}
+
+
 #contact-links { 
     display: flex; 
     list-style: none;
@@ -134,6 +139,7 @@ td img {
     gap: 10vw; 
     margin-top: 8vh; 
 }
+
 
 
 /* Projects----------------------------------------------------------*/
@@ -152,3 +158,86 @@ td img {
 
 
 /*----------------------------------------------------------------------------------*/
+
+/*Responsive Design-----------------------------------------------------------------*/
+
+@media screen and (max-width: 1100px) {
+    #profile-picture-and-about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profile-picture {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 2vh;
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #skills table {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-collapse: collapse;
+    }
+
+    #skills td,
+    #skills th {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.6rem;
+        border: 1px solid #fff;
+        font-size: 0.95rem;
+    }
+
+    
+
+    /* Remove alturas fixas que podem atrapalhar o layout responsivo */
+    #skills td {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #conteiner-projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #contact-links {
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    
+    /* Ajusta a tabela da seção Skills para duas colunas em telas pequenas */
+    #skills table {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-collapse: collapse;
+    }
+
+    #skills td,
+    #skills th {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.6rem;
+        border: 1px solid #fff;
+        font-size: 0.95rem;
+    }
+
+    
+
+    /* Remove alturas fixas que podem atrapalhar o layout responsivo */
+    #skills td {
+        height: auto;
+    }
+}
+/*--------------------------------------------------------------------------------------------*/
