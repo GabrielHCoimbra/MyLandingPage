@@ -3,6 +3,7 @@ import MatrixBackground from '../MatrixBackground/matrixbackground.jsx'
 import Project from '../Projects/project.jsx'
 import Experience from '../Experience/experience.jsx'
 import { useTranslation } from 'react-i18next'
+const profileSrc = import.meta.env.BASE_URL + 'images/profile.png'
 
 export default function Section() {
   const { t } = useTranslation()
@@ -21,7 +22,7 @@ export default function Section() {
         <h2>{t('about.title')}</h2>
         <div id="conteiner-about-me">
           <div id="profile-picture-and-about-me">
-            <img src="./../../../public/images/profile.png" alt="Profile Picture" id="profile-picture"/>
+            <img src={profileSrc} alt="Profile Picture" id="profile-picture"/>
             <p id="about-me"> 
               {t('about.description')}
             </p>
