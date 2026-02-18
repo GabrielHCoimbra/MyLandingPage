@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/MyLandingPage/',
+  base: 'MyLandingPage',
 })
