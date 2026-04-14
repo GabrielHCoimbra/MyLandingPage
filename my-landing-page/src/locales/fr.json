@@ -25,7 +25,77 @@
   "experience": {
     "title": "Expérience",
     "education": "Éducation",
-    "professional": "Professionnel"
+    "professional": "Professionnel",
+    "educationItems": [
+      {
+        "id": 1,
+        "institution": "Senai Centro de Treinamento da Tecnologia da Informação - CTTI MG",
+        "course": "Técnico em Desenvolvimento WEB",
+        "level": "Cours Technique",
+        "startDate": "Jan 2022",
+        "endDate": "Déc 2022",
+        "description": "Formation technique en développement web couvrant les technologies frontend et backend. Expérience pratique avec des frameworks et outils modernes de développement web pour créer des applications web dynamiques.",
+        "skills": ["PHP", "PhpMyAdmin", "MySQL", "SQL", "CSS", "Bootstrap", "JavaScript", "Node.js", "React.js", "HTML"]
+      },
+      {
+        "id": 2,
+        "institution": "Escola Secundária Martins Sarmento",
+        "course": "12º Ano - Ensino Secundário Português",
+        "level": "Enseignement Secondaire",
+        "startDate": "Oct 2023",
+        "endDate": "Jul 2024",
+        "description": "Achèvement de l'enseignement secondaire avec d'excellentes performances. Moyenne finale : 16/20. Réalisation remarquable dans la matière Applications Informatiques avec reconnaissance spéciale pour performance supérieure.",
+        "skills": ["Applications Informatiques", "Technologie de l'Information", "Éducation Générale"]
+      },
+      {
+        "id": 3,
+        "institution": "IEFP",
+        "course": "Técnico Especialista em Tecnologias e Programação de Sistemas de Informação",
+        "level": "Diplôme Spécialiste",
+        "startDate": "Déc 2025",
+        "endDate": "Nov 2026",
+        "description": "Formation avancée spécialisée en Technologies et Programmation des Systèmes d'Information. Programme complet couvrant le développement web (côté serveur et client), la conception de bases de données, les bases de données relationnelles et NoSQL, les applications mobiles pour Android, la configuration de communication réseau, l'analyse et la planification des systèmes d'information, le développement d'algorithmes, les normes de sécurité et de santé au travail en TI, et la programmation orientée objet.",
+        "skills": ["Python", "SQL", "React.js", "Compétences Analytiques", "UML", "Développement Web", "Conception de Bases de Données", "Développement Android", "NoSQL", "Configuration Réseau"]
+      }
+    ],
+    "professionalItems": [
+      {
+        "id": 1,
+        "company": "Construtora Terraço",
+        "position": "Programador Visual Gráfico",
+        "type": "Apprentissage",
+        "startDate": "Fév 2022",
+        "endDate": "Déc 2022",
+        "duration": "11 mois",
+        "location": "Belo Horizonte, Minas Gerais, Brésil",
+        "description": "Développement de solutions de programmation visuelle et graphique pour les applications internes. Le travail implique de créer des interfaces, d'optimiser le code frontend et d'intégrer avec les systèmes existants.",
+        "skills": ["PHP", "JavaScript", "HTML", "CSS", "SQL", "React.js"]
+      },
+      {
+        "id": 2,
+        "company": "DIO",
+        "position": "Embaixador DIO Campus Expert",
+        "type": "Temps Plein",
+        "startDate": "Avr 2025",
+        "endDate": "Présent",
+        "duration": "11 mois",
+        "location": "Brésil - À Distance",
+        "description": "Mon rôle implique un leadership communautaire et une représentation universitaire au sein de l'un des plus grands écosystèmes d'éducation technologique d'Amérique latine. Dans le cadre du programme, je participe à des initiatives pour promouvoir l'éducation technologique, l'engagement communautaire et le développement professionnel des participants.",
+        "skills": ["Autogestion", "Développement Personnel", "Leadership Communautaire", "Représentation Universitaire", "Technologie Éducative"]
+      },
+      {
+        "id": 3,
+        "company": "TEKSOUND",
+        "position": "Técnico Audiovisual",
+        "type": "Temps Partiel",
+        "startDate": "Oct 2023",
+        "endDate": "Présent",
+        "duration": "11 mois",
+        "location": "Vermoim - Portugal",
+        "description": "En tant que technicien audiovisuel à temps partiel, je suis responsable de la configuration et de la gestion des équipements audiovisuels pour les événements et productions. Cela inclut la configuration des systèmes audio, des équipements vidéo et l'assurance d'un fonctionnement fluide pendant les événements en direct. Mon rôle implique également la résolution de problèmes techniques et la collaboration avec les organisateurs d'événements pour répondre à leurs besoins audiovisuels.",
+        "skills": ["Équipements Audiovisuels", "Systèmes Audio", "Équipements Vidéo", "Production d'Événements", "Résolution de Problèmes Techniques"]
+      }
+    ]
   },
   "projects": {
     "title": "Projets",

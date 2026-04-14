@@ -30,7 +30,6 @@
       "description": "Advanced specialist training in Information Systems Technologies and Programming. Comprehensive curriculum covering web development (server-side and client-side), database design, relational and NoSQL databases, mobile applications for Android, network communication configuration, information system analysis and planning, algorithm development, security and occupational health standards in IT, and object-oriented programming.",
       "skills": ["Python", "SQL", "React.js", "Analytical Skills", "UML", "WebDevelopment", "Database Design", "Android Development", "NoSQL", "Network Configuration"]
     }
-      
   ],
   "experience": [
     {
@@ -44,8 +43,7 @@
       "location": "Belo Horizonte, Minas Gerais, Brazil",
       "description": "Development of visual and graphical programming solutions for internal applications. Work involves creating interfaces, optimizing frontend code, and integrating with existing systems.",
       "skills": ["PHP", "JavaScript", "HTML", "CSS", "SQL", "React.js"]
-    
-      },
+    },
     {
       "id": 2,
       "company": "DIO",
@@ -57,7 +55,18 @@
       "location": "Brazil - Remote",
       "description": "My role involves community leadership and university representation within one of the largest technology education ecosystems in Latin America. As part of the program, I participate in initiatives to promote technology education, community engagement, and professional development for participants.",
       "skills": ["Self-Management", "Personal Development", "Community Leadership", "University Representation", "Education Technology"]
-    
+    },
+    {
+      "id": 3,
+      "company": "TEKSOUND",
+      "position": "Técnico Audiovisual",
+      "type": "Part-time",
+      "startDate": "Out 2023",
+      "endDate": "Present",
+      "duration": "11 months",
+      "location": "Vermoim - Portugal",
+      "description": "As a part-time audiovisual technician, I am responsible for setting up and managing audiovisual equipment for events and productions. This includes configuring sound systems, video equipment, and ensuring smooth operation during live events. My role also involves troubleshooting technical issues and collaborating with event organizers to meet their audiovisual needs.",
+      "skills": ["Audiovisual Equipment", "Sound Systems", "Video Equipment", "Event Production", "Technical Troubleshooting"]
     }
   ]
 }

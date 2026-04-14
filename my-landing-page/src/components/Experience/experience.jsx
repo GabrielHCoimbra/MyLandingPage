@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import "./experience.css";
-import experienceData from "../../data/experience.json";
 
 export default function Experience() {
-  const [data, setData] = useState({ education: [], experience: [] });
   const { t } = useTranslation();
 
-  useEffect(() => {
-    // Simulates fetching from JSON (in case you want to fetch from API later)
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setData(experienceData);
-  }, []);
+  const educationItems = t('experience.educationItems', { returnObjects: true });
+  const professionalItems = t('experience.professionalItems', { returnObjects: true });
 
   return (
     <div className="experience-container">
@@ -19,7 +14,7 @@ export default function Experience() {
       <div className="timeline-section">
         <h3 className="timeline-title">{t('experience.education')}</h3>
         <div className="timeline">
-          {data.education.map((edu) => (
+          {educationItems.map((edu) => (
             <div key={edu.id} className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
@@ -46,7 +41,7 @@ export default function Experience() {
       <div className="timeline-section">
         <h3 className="timeline-title">{t('experience.professional')}</h3>
         <div className="timeline">
-          {data.experience.map((exp) => (
+          {professionalItems.map((exp) => (
             <div key={exp.id} className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">

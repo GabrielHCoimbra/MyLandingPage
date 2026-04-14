@@ -25,7 +25,77 @@
   "experience": {
     "title": "Experiência",
     "education": "Educação",
-    "professional": "Profissional"
+    "professional": "Profissional",
+    "educationItems": [
+      {
+        "id": 1,
+        "institution": "Senai Centro de Treinamento da Tecnologia da Informação - CTTI MG",
+        "course": "Técnico em Desenvolvimento WEB",
+        "level": "Curso Técnico",
+        "startDate": "Jan 2022",
+        "endDate": "Dez 2022",
+        "description": "Formação técnica em desenvolvimento web abrangendo tecnologias frontend e backend. Experiência prática com frameworks e ferramentas modernas de desenvolvimento web para criar aplicações web dinâmicas.",
+        "skills": ["PHP", "PhpMyAdmin", "MySQL", "SQL", "CSS", "Bootstrap", "JavaScript", "Node.js", "React.js", "HTML"]
+      },
+      {
+        "id": 2,
+        "institution": "Escola Secundária Martins Sarmento",
+        "course": "12º Ano - Ensino Secundário Português",
+        "level": "Ensino Secundário",
+        "startDate": "Out 2023",
+        "endDate": "Jul 2024",
+        "description": "Conclusão do ensino secundário com excelente desempenho. Média final: 16/20. Realização notável na disciplina de Aplicações Informáticas com reconhecimento especial por desempenho superior.",
+        "skills": ["Aplicações Informáticas", "Tecnologia da Informação", "Educação Geral"]
+      },
+      {
+        "id": 3,
+        "institution": "IEFP",
+        "course": "Técnico Especialista em Tecnologias e Programação de Sistemas de Informação",
+        "level": "Grau Especialista",
+        "startDate": "Dez 2025",
+        "endDate": "Nov 2026",
+        "description": "Formação avançada especializada em Tecnologias e Programação de Sistemas de Informação. Currículo abrangente cobrindo desenvolvimento web (lado servidor e cliente), design de banco de dados, bancos de dados relacionais e NoSQL, aplicações móveis para Android, configuração de comunicação de rede, análise e planejamento de sistemas de informação, desenvolvimento de algoritmos, padrões de segurança e saúde ocupacional em TI, e programação orientada a objetos.",
+        "skills": ["Python", "SQL", "React.js", "Habilidades Analíticas", "UML", "Desenvolvimento Web", "Design de Banco de Dados", "Desenvolvimento Android", "NoSQL", "Configuração de Rede"]
+      }
+    ],
+    "professionalItems": [
+      {
+        "id": 1,
+        "company": "Construtora Terraço",
+        "position": "Programador Visual Gráfico",
+        "type": "Aprendizagem",
+        "startDate": "Fev 2022",
+        "endDate": "Dez 2022",
+        "duration": "11 meses",
+        "location": "Belo Horizonte, Minas Gerais, Brasil",
+        "description": "Desenvolvimento de soluções de programação visual e gráfica para aplicações internas. O trabalho envolve criar interfaces, otimizar código frontend e integrar com sistemas existentes.",
+        "skills": ["PHP", "JavaScript", "HTML", "CSS", "SQL", "React.js"]
+      },
+      {
+        "id": 2,
+        "company": "DIO",
+        "position": "Embaixador DIO Campus Expert",
+        "type": "Tempo Integral",
+        "startDate": "Abr 2025",
+        "endDate": "Presente",
+        "duration": "11 meses",
+        "location": "Brasil - Remoto",
+        "description": "Meu papel envolve liderança comunitária e representação universitária dentro de um dos maiores ecossistemas de educação em tecnologia da América Latina. Como parte do programa, participo de iniciativas para promover a educação em tecnologia, engajamento comunitário e desenvolvimento profissional para os participantes.",
+        "skills": ["Autogestão", "Desenvolvimento Pessoal", "Liderança Comunitária", "Representação Universitária", "Tecnologia Educacional"]
+      },
+      {
+        "id": 3,
+        "company": "TEKSOUND",
+        "position": "Técnico Audiovisual",
+        "type": "Meio Período",
+        "startDate": "Out 2023",
+        "endDate": "Presente",
+        "duration": "11 meses",
+        "location": "Vermoim - Portugal",
+        "description": "Como técnico audiovisual de meio período, sou responsável por configurar e gerenciar equipamentos audiovisuais para eventos e produções. Isso inclui configurar sistemas de som, equipamentos de vídeo e garantir operação suave durante eventos ao vivo. Meu papel também envolve solucionar problemas técnicos e colaborar com organizadores de eventos para atender às suas necessidades audiovisuais.",
+        "skills": ["Equipamentos Audiovisuais", "Sistemas de Som", "Equipamentos de Vídeo", "Produção de Eventos", "Solução de Problemas Técnicos"]
+      }
+    ]
   },
   "projects": {
     "title": "Projetos",
